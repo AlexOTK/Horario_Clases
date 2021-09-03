@@ -1,0 +1,43 @@
+body{
+    background-image: url(/img/01.jpg);
+}
+.cuerpo{
+    padding: 45px;
+}
+.contenedor{
+    padding: 20px;
+    border-radius: 15px;
+    background: transparent;
+    box-shadow:  25px 25px 50px #bebebe,
+             -25px -25px 50px #ffffff;
+}
+
+td{
+    border: 1px solid;
+    border-color: white;
+    text-align: center;
+}
+
+.clFSI{
+    background: #076CD660;
+}
+
+.clTDLC{
+    background: #59B2ED60;
+}
+
+.clPAI{
+    background: #26895860;
+}
+
+.clTCS{
+    background: #8A2E1760;
+}
+
+.clAPTO{
+    background: #EDC00C60;
+}
+
+.hora,.L,.M,.I,.J,.V{
+border: 0;
+}

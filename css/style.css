@@ -16,28 +16,10 @@ td{
     border: 1px solid;
     border-color: white;
     text-align: center;
+    width: 20em;
+    height: 2em;
 }
 
-.clFSI{
-    background: #076CD660;
-}
-
-.clTDLC{
-    background: #59B2ED60;
-}
-
-.clPAI{
-    background: #26895860;
-}
-
-.clTCS{
-    background: #8A2E1760;
-}
-
-.clAPTO{
-    background: #EDC00C60;
-}
-
-.hora,.L,.M,.I,.J,.V{
+.hora, .empty{
 border: 0;
 }

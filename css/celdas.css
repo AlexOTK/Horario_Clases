@@ -1,0 +1,36 @@
+.cells {
+  position: relative;
+  transition: transform 0.2s; /* Animation */
+}
+
+.cell-side {
+  transition: all 0.8s ease; /* Transicion */
+  backface-visibility: hidden;
+  position: absolute;
+  /* 100% del td */
+  width: 100%;
+  height: 100%;
+  /* Esquinar div */
+  top: 0;
+  left: 0;
+  /*centrar contenido*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cells:hover {
+  transform: scale(1.29); /* 129% zoom */
+}
+
+.cell-side.back {
+  transform: rotateY(-180deg); /* Posicion inicial del back */
+}
+
+.cells:hover .cell-side.front {
+  transform: rotateY(180deg);
+}
+
+.cells:hover .cell-side.back {
+  transform: rotateY(0deg);
+}

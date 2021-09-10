@@ -4,7 +4,7 @@
 }
 
 .cell-side {
-  transition: all 0.8s ease; /* Transicion */
+  transition: all 1s ease; /* Transicion */
   backface-visibility: hidden;
   position: absolute;
   /* 100% del td */
@@ -17,6 +17,34 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+a{
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconos {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  justify-items: center;
+  align-items: center;
+}
+
+label {
+  display: block;
+  font-size: 9px;
+}
+
+a,
+label {
+  text-decoration: none;
+  color: slategray;
 }
 
 .cells:hover {
@@ -33,4 +61,8 @@
 
 .cells:hover .cell-side.back {
   transform: rotateY(0deg);
+}
+
+.icon {
+  display: inline-block;
 }

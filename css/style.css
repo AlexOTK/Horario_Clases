@@ -1,5 +1,5 @@
 body {
-  background-image: url(/img/01.jpg);
+  /* background-image: url(/img/01.jpg); */
 }
 .cuerpo {
   padding: 45px;
@@ -13,8 +13,9 @@ body {
 
 td {
   border: 1px solid;
-  border-color: white;
+  /* border-color: white; */
   text-align: center;
+  border: 0;
   width: 20em;
   height: 2em;
 }
@@ -22,6 +23,11 @@ td {
 .hora,
 .empty {
   border: 0;
+}
+
+img{
+  width: 1.5rem;
+  height: auto;
 }
 
 #estaF {
@@ -94,4 +100,12 @@ td {
 
 #aiB{
     background-color: #9307a87e;
+}
+
+#aptoF{
+  background-color: #f93eff7e;
+}
+
+#aptoB{
+  background-color: #fb86ff7e;
 }
